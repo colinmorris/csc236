@@ -84,4 +84,5 @@ Grades will be posted to [MarkUs]({{ markus_url }}).
 
 ## Re-marks
 
-TODO
+It is extremely important to us that we accurately evaluate each piece of work. You will have opportunity on
+MarkUs to request that we review any piece of term work with fresh eyes. The result may be that the mark goes down, up, or stays the same, depending on what we see when we reconsider it.
