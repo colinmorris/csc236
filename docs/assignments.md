@@ -8,6 +8,7 @@ A1         | Induction (weeks 1-3) | Thursday January 30 (week 4)
 A2         | Recurrences, program correctness (weeks 4-8) | Thursday March 12 (week 9)
 A3         | Formal languages (weeks 9-11) | Thursday April 2 (week 12)
 
+Assignments must be submitted by 3 p.m. on the due date.
 
 Assignment solutions should be formatted using LaTeX. TAs will hold LaTeX help sessions around the time A1 is posted. Attendance is optional, but highly recommended if you have never typeset documents in LaTeX before.
 
@@ -15,7 +16,7 @@ The rendered pdf of your solution **and** the `.tex` source file should both be 
 
 ## Late policy
 
-TODO
+There will be a 5%-per-hour late penalty for assignments. If you have special circumstances that force you to miss a deadline, please e-mail me immediately (usually before the work is due) to request special consideration, concisely describing the reason for the request and attaching any supporting documentation. I will do my best to ensure that there is no penalty for a deadline missed for a valid reason.
 
 ## Academic integrity
 
