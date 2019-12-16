@@ -13,7 +13,7 @@ The text for this course is [CSC 236/240/B36 Introduction to the Theory of Compu
 
 You can reach me (Colin Morris) at <colin@cs.toronto.edu>, or during office hours TODO
 
-If your question is potentially of general interest, consider instead posting it to the [course discussion board](TODO).
+If your question is potentially of general interest, consider instead posting it to the [course discussion board]({{ discussion_url }}).
 
 ## Pre-requisites
 

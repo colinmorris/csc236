@@ -5,7 +5,7 @@ nav:
   - 'Home': 'index.md'
   - 'Lectures & tutorials': 'lectures_and_tutorials.md'
   - 'Assignments': 'assignments.md'
-  - 'Discussion board': http://TODO.com
+  - 'Discussion board': https://bb-2020-01.teach.cs.toronto.edu/c/csc236
 
 # Formatting options
 markdown_extensions:
@@ -20,6 +20,7 @@ extra_css:
 # Misc
 extra:
   markus_url: https://markus.teach.cs.toronto.edu/csc236-2020-01
+  discussion_url: https://bb-2020-01.teach.cs.toronto.edu/c/csc236
 
 plugins:
   - search
