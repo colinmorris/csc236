@@ -2,8 +2,6 @@
 
 Lectures take place Monday and Wednesday from 12:10-13:00 (LEC0201) and 13:10-14:00 (LEC0101/LEC2000) at UC 140 (University College).
 
-Tutorials take place every Friday at the same time as lecture in TODO.
-
 Week    | Lecture slides (raw) | Lecture slides (annotated) | Tutorial
 --------|----------------------|----------------------------|--------
 Week 1: Simple induction | [W1.pdf](lecture_slides/W1.pdf) | [W1_annotated.pdf](lecture_slides/W1_annotated.pdf) | No tutorial this week!

@@ -7,13 +7,19 @@ Welcome to the course website for CSC236, Introduction to the Theory of Computat
 3. Program correctness
 4. Formal languages
 
-The text for this course is [CSC 236/240/B36 Introduction to the Theory of Computation](http://www.cs.toronto.edu/~vassos/b36-notes/notes.pdf), by Vassos Hadzilacos, available at no charge at <http://www.cs.toronto.edu/~vassos/b36-notes/>.
+The text for this course is [CSC 236/240/B36 Introduction to the Theory of Computation](http://www.cs.toronto.edu/~vassos/b36-notes/notes.pdf), by Vassos Hadzilacos, available online at no charge.
 
 ## Contact
 
-You can reach me (Colin Morris) at <colin@cs.toronto.edu>, or during office hours TODO
+You can reach me (Colin Morris) at <colin@cs.toronto.edu>, or during office hours TODO. I will aim to reply to e-mails within 48 hours. Please include "236" in the subject line.
 
-If your question is potentially of general interest, consider instead posting it to the [course discussion board]({{ discussion_url }}).
+The [CSC Help Centre](https://web.cs.toronto.edu/undergraduate/help-centre) is another resource for getting help with course material. They are open Monday to Friday from 2-6 p.m.
+
+### Course discussion board
+
+If your question is potentially of general interest, consider posting it to the [course discussion board]({{ discussion_url }}) instead of e-mailing me. It increases your chance of getting a prompt answer, and helps your fellow students.
+
+Please **do not discuss assignment solutions** on the board until the deadline has passed and solutions have been posted to the course website (see [Academic integrity](/assignments#Academic_integrity)).
 
 ## Pre-requisites
 
