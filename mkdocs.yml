@@ -1,5 +1,6 @@
 site_name: CSC236 winter 2020
 site_author: Colin Morris
+repo_url: https://github.com/colinmorris/csc236
 
 nav:
   - 'Home': 'index.md'
@@ -7,17 +8,16 @@ nav:
   - 'Assignments': 'assignments.md'
   - 'Discussion board': https://bb-2020-01.teach.cs.toronto.edu/c/csc236
 
-# Formatting options
 markdown_extensions:
   - tables
   - footnotes
   - wikilinks
   - attr_list
 
+theme: mkdocs
 extra_css:
   - extra.css
 
-# Misc
 extra:
   markus_url: 'TBD' #https://markus.teach.cs.toronto.edu/csc236-2020-01
   discussion_url: https://bb-2020-01.teach.cs.toronto.edu/c/csc236
