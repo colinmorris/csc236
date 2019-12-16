@@ -1,0 +1,4 @@
+/* Grading scheme table */
+table.scheme td {
+  vertical-align: middle !important;
+}
