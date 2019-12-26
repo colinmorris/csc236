@@ -11,7 +11,11 @@ The text for this course is [CSC 236/240/B36 Introduction to the Theory of Compu
 
 ## Contact
 
-You can reach me (Colin Morris) at <colin@cs.toronto.edu>, or during office hours TODO. I will aim to reply to e-mails within 48 hours. Please include "236" in the subject line.
+You can reach me (Colin Morris) at <colin@cs.toronto.edu>. I will aim to reply to e-mails within 48 hours. Please include "236" in the subject line.
+
+## Office hours
+
+My office hours are from 2-4 p.m. in BA2283.
 
 The [CSC Help Centre](https://web.cs.toronto.edu/undergraduate/help-centre) is another resource for getting help with course material. They are open Monday to Friday from 2-6 p.m.
 
