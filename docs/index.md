@@ -90,5 +90,6 @@ Grades will be posted to [MarkUs]({{ markus_url }}).
 
 ## Re-marks
 
-It is extremely important to us that we accurately evaluate each piece of work. You will have opportunity on
-MarkUs to request that we review any piece of term work with fresh eyes. The result may be that the mark goes down, up, or stays the same, depending on what we see when we reconsider it.
+You will have opportunity on MarkUs to request a review of the grading of any piece of term work. Please give a specific reason for any request, indicating any errors or omissions you think the marker may have made. Remark requests may not be accepted if they are not accompanied with a reason, or if they are made more than three weeks after the work in question was returned.
+
+Note that the result of a re-mark may be that the mark goes down, up, or stays the same, depending on what we see when we reconsider it. Also, we may choose to review the grading of the entire piece of work, rather than one specific question.
