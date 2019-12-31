@@ -6,3 +6,34 @@ table.scheme td {
 footer {
   display: none;
 }
+
+h1 {
+  font-size: 1.7em !important;
+}
+
+h2 {
+  font-size: 1.5em !important;
+}
+
+h3 {
+  font-size: 1.17em !important;
+}
+
+body::before {
+  background-image: none;
+}
+
+
+.table>tbody>tr>td {
+  padding: 3px;
+}
+
+p {
+  margin: 0 0 5px;
+}
+
+@page {
+  margin-left: 1.5cm;
+  margin-right: 1.5cm;
+  margin-top: 0cm;
+}
