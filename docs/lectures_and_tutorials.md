@@ -22,4 +22,4 @@ There will be ten quizzes, but your lowest quiz grade will be dropped, making th
 
 ## Tutorial rooms
 
-TODO
+**TBA**
