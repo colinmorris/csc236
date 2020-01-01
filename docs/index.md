@@ -15,7 +15,7 @@ You can reach me (Colin Morris) at <colin@cs.toronto.edu>. I will aim to reply t
 
 ## Office hours
 
-My office hours are from 2-4 p.m. in BA2283.
+My office hours are Wednesday 2-4 p.m. in BA2283.
 
 The [CSC Help Centre](https://web.cs.toronto.edu/undergraduate/help-centre) is another resource for getting help with course material. They are open Monday to Friday from 2-6 p.m.
 
