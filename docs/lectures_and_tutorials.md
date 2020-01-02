@@ -18,7 +18,7 @@ During the last 10-15 minutes of tutorial, TAs will distribute a short (typicall
 * **1**: A partial solution with a major missing piece or error
 * **0**: Anything else
 
-There will be ten quizzes. The quiz during the first week will be just for practice. The remaining nine will be worth 2% of your final grade each (for a total of 18%).
+There will be ten quizzes. The quiz during the first week will be just for practice. The remaining nine will together be worth 18% of your final grade.
 
 ## Tutorial rooms
 
