@@ -97,3 +97,5 @@ Grades will be posted to [MarkUs]({{ markus_url }}).
 You will have opportunity on MarkUs to request a review of the grading of any piece of term work. Please give a specific reason for any request, indicating any errors or omissions you think the marker may have made. Remark requests may not be accepted if they are not accompanied with a reason, or if they are made more than three weeks after the work in question was returned.
 
 Note that the result of a re-mark may be that the mark goes down, up, or stays the same, depending on what we see when we reconsider it. Also, we may choose to review the grading of the entire piece of work, rather than one specific question.
+
+If you would like me to review the grading of a tutorial quiz, please bring it to me during office hours. Your TA may be able to answer questions about why your quiz was graded a certain way (or explain comments that they left), but they will not modify quiz grades after returning them.
