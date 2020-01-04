@@ -6,7 +6,7 @@ nav:
   - 'Home': 'index.md'
   - 'Lectures & tutorials': 'lectures_and_tutorials.md'
   - 'Assignments': 'assignments.md'
-  - 'Discussion board': https://bb-2020-01.teach.cs.toronto.edu/c/csc236
+  - 'Discussion board': https://piazza.com/utoronto.ca/winter2020/csc236/
 
 markdown_extensions:
   - tables
@@ -20,7 +20,7 @@ extra_css:
 
 extra:
   markus_url: 'TBD' #https://markus.teach.cs.toronto.edu/csc236-2020-01
-  discussion_url: https://bb-2020-01.teach.cs.toronto.edu/c/csc236
+  discussion_url: https://piazza.com/utoronto.ca/winter2020/csc236/
 
 plugins:
   - search
