@@ -99,3 +99,7 @@ You will have opportunity on MarkUs to request a review of the grading of any pi
 Note that the result of a re-mark may be that the mark goes down, up, or stays the same, depending on what we see when we reconsider it. Also, we may choose to review the grading of the entire piece of work, rather than one specific question.
 
 If you would like me to review the grading of a tutorial quiz, please bring it to me during office hours. Your TA may be able to answer questions about why your quiz was graded a certain way (or explain comments that they left), but they will not modify quiz grades after returning them.
+
+## Course information sheet
+
+For posterity, [this](misc/courseinfo.pdf) is the course information sheet that was distributed on the first day of class. (All the information on the course info sheet is also present on the course website. In fact, the course info sheet is essentially a partial snapshot of the course website as it existed on January 6.)
