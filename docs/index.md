@@ -23,7 +23,7 @@ The [CSC Help Centre](https://web.cs.toronto.edu/undergraduate/help-centre) is a
 
 If your question is potentially of general interest, consider posting it to the [course discussion board]({{ discussion_url }}) instead of e-mailing me. It increases your chance of getting a prompt answer, and helps your fellow students.
 
-Please **do not discuss assignment solutions** on the board until the deadline has passed and solutions have been posted to the course website (see [Academic integrity](/assignments#Academic_integrity)).
+Please **do not discuss assignment solutions** on the board until the deadline has passed and solutions have been posted to the course website (see [Academic integrity](assignments#Academic_integrity)).
 
 ## Pre-requisites
 
