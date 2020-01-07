@@ -6,3 +6,10 @@ table.scheme td {
 footer {
   display: none;
 }
+
+/* Hide portion of the nav with site search, github link, and previous/next buttons.
+The nav header was starting to have to wrap over to another line, which occluded some important page content.
+*/
+ul.navbar-right {
+  display: none;
+}

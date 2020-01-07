@@ -1,12 +1,14 @@
 site_name: CSC236 winter 2020
 site_author: Colin Morris
 repo_url: https://github.com/colinmorris/csc236
+edit_uri: ''
 
 nav:
   - 'Home': 'index.md'
   - 'Lectures & tutorials': 'lectures_and_tutorials.md'
   - 'Assignments': 'assignments.md'
   - 'Discussion board': https://piazza.com/utoronto.ca/winter2020/csc236/
+  - 'Announcements': 'announcements.md'
 
 markdown_extensions:
   - tables
