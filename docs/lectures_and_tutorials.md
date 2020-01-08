@@ -2,9 +2,9 @@
 
 Lectures take place Monday and Wednesday from 12:10-13:00 (LEC0201) and 13:10-14:00 (LEC0101/LEC2000) at UC 140 (University College).
 
-Week    | Lecture slides (raw) | Lecture slides (annotated) | Tutorial
---------|----------------------|----------------------------|--------
-Week 1: Simple induction | [w1.pdf](lecture_slides/w1.pdf) | - | [ex1.pdf](exercises/ex1.pdf)
+Week    | Lecture slides (raw) | Annotated (12:00) | Annotated (13:00) | Tutorial
+--------|----------------------|-------------------|-------------------|--------
+Week 1: Simple induction | [w1.pdf](lecture_slides/w1.pdf) | [w1_lec1_annotated.pdf](lecture_slides/w1_lec1_annotated.pdf) | [w1_lec2_annotated.pdf](lecture_slides/w1_lec2_annotated.pdf) | [ex1.pdf](exercises/ex1.pdf)
 
 ## Tutorial format
 
