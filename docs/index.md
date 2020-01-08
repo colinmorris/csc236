@@ -90,7 +90,14 @@ Grades will be posted to [MarkUs]({{ markus_url }}).
 
 ## Calendar
 
+In case you find it useful, [here](https://calendar.google.com/calendar/embed?src=h0h6c8gdljbi0oddq75au4uuv0%40group.calendar.google.com&ctz=America%2FToronto) is a link to a Google calendar with some important dates for the course (e.g. midterms, assignment due dates, extra office hours).
+
+<!-- On mobile, the calendar iframe is inducing a big horizontal scroll bar, which hides the
+hambuger menu, and makes it hard to navigate to other sections of the website (or even discover
+that they exist. :(
+
 <iframe src="https://calendar.google.com/calendar/embed?src=h0h6c8gdljbi0oddq75au4uuv0%40group.calendar.google.com&ctz=America%2FToronto&showTitle=0&showPrint=0&showCalendars=0" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+-->
 
 ## Re-marks
 
