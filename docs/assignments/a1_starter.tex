@@ -1,0 +1,115 @@
+% This is a starter document for writing up your solutions to CSC236 W20's assignment 1.
+% See http://www.cs.toronto.edu/~colin/236/W20/assignments/ for more information on assignments,
+% and helpful LaTeX resources.
+% Use of this starter document is not required.
+\documentclass[boldsans]{article}
+%% Package imports
+% Changes the default fonts. This and the [boldsans] option above are purely a matter of aesthetics,
+% and can be safely removed.
+\usepackage{ccfonts}
+% Import some standard mathematical symbols and notation
+\usepackage{amsmath,amssymb}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Define a few convenient custom commands and aliases. Normally, these might go into a separate
+% .sty file (e.g. helpers.sty), which we would then import with the command \usepackage{helpers}
+% I'm including them directly in the main tex file in this case, just to make it simpler to share.
+
+% The symbol for the natural numbers (a capital N in "blackboard bold"). So, for example, you
+% can write "Let $n \in \N$", instead of "Let $n \in \mathbb{N}$". Big timesaver!
+\newcommand{\N}{\mathbb{N}}
+% Macros for proofs
+\newcommand{\proofheader}[1]{\noindent \underline{\textbf{#1}}}
+\newcommand{\base}{\proofheader{Base Case}:}
+\newcommand{\istep}{\proofheader{Inductive Step}:}
+\newenvironment{solution}
+{\bigskip \noindent \textbf{Solution: \\}}
+{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \title and \author let us declare some metadata that will be used later when we call \maketitle
+\title{CSC236 Winter 2020 Assignment \#1}
+% Replace the placeholder text on the below 2 lines with your name and utorid
+\newcommand{\name}{Your full name goes here}
+\newcommand{\utorid}{Your utorid}
+% The \\ generates a line break
+\author{\name \\ \textit{\utorid}}
+
+\begin{document}
+% When we call the \maketitle command, it will generate a chunk of text at the top of the 
+% document combining the title that we declared with \title, the author we declared with \author,
+% and today's date (or any alternative date you declare using \date)
+\maketitle
+
+% We use the enumerate environment to generate a numbered list of questions. \item declares a 
+% new numbered item (i.e. a new question)
+\begin{enumerate}
+
+% Stuff surrounded by dollar signs is treated as math. The rest is treated as prose.
+\item Define function $f$ recursively as follows:
+% But inside certain environments like equation or align, everything is treated as math by default
+% (and if we want something to be formatted like normal text, we need to use the \text command)
+\begin{equation*}
+    f(n) =
+    \begin{cases}
+      1 & \text{if } n \leq 1 \\
+      n \cdot f(n-2) & \text{if } n > 1
+    \end{cases}
+  \end{equation*}
+Use induction to prove that for all even $n$, $f(n) = 2^{n/2} (n/2)!$.
+
+% solution is a custom environment that we defined above. It basically just adds some vertical 
+% space before your solution, and a bold "Solution:" header.
+\begin{solution}
+Replace this with your solution.
+\end{solution}
+
+% We use the \newpage command before each question to make sure it starts on its own page.
+% Please keep these - they're helpful to graders.
+\newpage
+\item What happens when the fall of the $n$th domino implies the fall of the \textit{previous} one? Suppose we have proven the following facts with respect to some predicate $P(n)$:\footnote{Where $\N^+$ denotes the positive natural numbers, i.e. $\N - \{0\}$.}
+\begin{align}
+    &P(1) \label{basis} \\
+    \forall n \in \N^+, P(n) &\implies P(n-1) \label{back}\\
+    \forall n \in \N, P(n) &\implies P(2n) \label{double}
+\end{align}
+
+In this question, you will show that, taken together, these three statements comprise a valid proof that $P$ holds for all natural numbers.
+\begin{enumerate}
+\item Use complete induction to prove that $\forall n \in \N, P(n)$.
+
+\begin{solution}
+Replace this with your solution to part a.
+\end{solution}
+\item If we failed to prove \eqref{double}, but kept the other two statements, what values would we be able to conclude that $P$ holds for? Repeat for \eqref{back} and \eqref{basis}.
+
+\begin{solution}
+Replace this with your solution to part b.
+\end{solution}
+\end{enumerate}
+
+\newpage
+\item Let $\mathcal{S}$ be the smallest set of strings defined by:
+\begin{itemize}
+    \item $\mathtt{u} \in S$
+    \item if $s \in \mathcal{S}$ then $\mathtt{y}s \in \mathcal{S}$
+    \item if $s \in \mathcal{S}$ then $s\mathtt{h} \in \mathcal{S}$
+    \item if $s_1, s_2 \in S$ then $s_1 s_2 \in S$
+\end{itemize}
+Use structural induction to prove that no strings in $\mathcal{S}$ contain the substring $\mathtt{yh}$. \textbf{Hint:} It may help to strengthen your induction hypothesis.
+
+\begin{solution}
+Replace this with your solution.
+\end{solution}
+
+\newpage
+\item Define $A(n)$ as the smallest natural number containing exactly $n$ substrings in its decimal representation which are prime numbers.\\
+For example, $A(2) = 13$, because the string `13' contains the prime numbers 3 and 13 itself (and is smaller than any other number with this property, such as 31). $A(6) = 373$, corresponding to the prime numbers 3 (which appears twice), 7, 37, 73, and 373.\\
+Prove that $A(n)$ is defined for each $n \in \N$. i.e. for each $n \in \N$, there exists a smallest natural number containing exactly $n$ prime substrings.
+
+\begin{solution}
+Replace this with your solution.
+\end{solution}
+
+\end{enumerate}
+\end{document}

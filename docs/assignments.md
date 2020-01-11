@@ -2,17 +2,21 @@
 
 This course includes three assignments, each worth 7%, for a total of 21%. Assignments are to be completed **individually**.
 
-Assignment | Content | Due
------------|---------|----
-A1         | Induction (weeks 1-3) | Thursday January 30 (week 4)
-A2         | Recurrences, program correctness (weeks 4-8) | Thursday March 12 (week 9)
-A3         | Formal languages (weeks 9-11) | Thursday April 2 (week 12)
+Assignment | Content | Due    | Solutions
+-----------|---------|--------|-----------
+[A1](assignments/a1.pdf) ([a1_starter.tex](assignments/a1_starter.tex)) | Induction (weeks 1-3) | Thursday January 30 (week 4) | 
+A2         | Recurrences, program correctness (weeks 4-8) | Thursday March 12 (week 9) |
+A3         | Formal languages (weeks 9-11) | Thursday April 2 (week 12) |
 
 Assignments must be submitted by 3 p.m. on the due date.
 
-Assignment solutions should be formatted using LaTeX. TAs will hold LaTeX help sessions around the time A1 is posted. Attendance is optional, but highly recommended if you have never typeset documents in LaTeX before.
-
 The rendered pdf of your solution **and** the `.tex` source file should both be uploaded to [MarkUs]({{ markus_url }}).
+
+## LaTeX
+
+Assignment solutions must be typeset using LaTeX. With each assignment, I will include a 'starter' LaTeX document which you may use as a starting point for writing up your solutions (though use of the starter doc is not required).
+
+For some LaTeX tips and helpful links, check out the [LaTeX section of the course website](../latex).
 
 ## Late policy
 

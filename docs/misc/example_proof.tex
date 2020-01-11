@@ -1,0 +1,82 @@
+% See http://www.cs.toronto.edu/~colin/236/W20/assignments/ for more information on assignments,
+% and helpful LaTeX resources.
+\documentclass[boldsans]{article}
+\usepackage{ccfonts}
+\usepackage{amsmath,amssymb}
+
+% Define a few convenient custom commands and aliases. Normally, these might go into a separate
+% .sty file (e.g. helpers.sty), which we would then import with the command \usepackage{helpers}
+% I'm including them directly in the main tex file in this case, just to make it simpler to share.
+
+% The symbol for the natural numbers (a capital N in "blackboard bold"). So, for example, you
+% can write "Let $n \in \N$", instead of "Let $n \in \mathbb{N}$". Big timesaver!
+\newcommand{\N}{\mathbb{N}}
+
+% More semantic/easily memorized aliases for logical operators
+\newcommand{\NOT}{\neg}
+\newcommand{\AND}{\wedge}
+\newcommand{\OR}{\vee}
+% Macros for proofs
+\newcommand{\proofheader}[1]{\noindent \underline{\textbf{#1}}~}
+% \base and \istep will generate a bold, underlined header introducing your base case
+% and inductive step. These are purely ornamental and optional. You can see examples of them in
+% use below.
+\newcommand{\base}{\proofheader{Base Case:}}
+\newcommand{\istep}{\proofheader{Inductive Step:}}
+\newenvironment{solution}
+{\bigskip \noindent \textbf{Solution: \\}}
+{}
+
+% \title and \author let us declare some metadata that will be used later when we call \maketitle
+\title{CSC236 Winter 2020 example proof}
+\author{Colin Morris}
+
+\begin{document}
+\maketitle
+
+\begin{enumerate}
+
+% Here I define a new macro on the fly specific to this question. Every time I type \DS, it's
+% replaced by \mathrm{digitalsum}, which is how I write the name of my function in math mode.
+% If you're curious why this is necessary, try writing $digitalsum(n)$ and see what it looks like
+% when it's rendered. LaTeX thinks I'm multiplying variables d, i, g, i, t, a, etc.!
+\newcommand{\DS}{{\mathrm{digitalsum}}}
+\item Define $\DS(n)$ as the sum of the digits of the decimal representation of $n$. For example, $\DS(236) = 2 + 3 + 6 = 11$. Use induction to prove that $\forall n \in \N, \DS(n) \leq n$.
+
+% I'm using my custom "solution" environment, like in the A1 starter code. But again, this is optional.
+\begin{solution}
+Define $P(n)$: $\DS(n) \leq n$. I will prove $\forall n \in \N, P(n)$ by simple induction.
+
+% Note that I put a blank line between lines of my proof if I want them to show up on separate
+% lines in the rendered document. (I could have also used \\ at the end of the previous line)
+\base $\DS(0) = 0 \leq 0$, hence $P(0)$.
+
+\istep Let $n \in \N$. Assume $P(n)$. There are two cases to consider, based on the last digit of $n$.
+
+\begin{description}
+% I like to use the "description" environment when doing proof by cases. The content of the square
+% brackets after \item will be bolded, and everything that comes after it will be indented.
+% But as usual, this is just a matter of personal style. You might prefer, for example, to use
+% \underline{} to format your cases, or not use any special formatting at all.
+\item[Case 1: $n \mod 10 = 9$.]
+\ \\
+Let $k > 0$ be the number of trailing `9's in the decimal representation of $n$. In the decimal representation of $n+1$, each of these digits will become `0's, and the $(k+1)$th digit from the right will increase by one. So
+\begin{align*}
+\DS(n+1) & = \DS(n) - 9k + 1\\
+& \leq n - 9k + 1 & \text{\# by I.H.}\\
+& < n + 1\\
+\end{align*}
+Hence $P(n+1)$.
+\item[Case 2: $n \mod 10 \neq 9$]
+\ \\
+Then the digital representation of $n+1$ will be identical to that of $n$, except that the last digit is increased by 1. So
+\begin{align*}
+\DS(n+1) & = \DS(n) + 1\\
+& \leq n + 1 & \text{\#by I.H.}
+\end{align*}
+\end{description}
+$P(n+1)$ holds in all cases, so $P(n) \implies P(n+1)$ for arbitrary $n$.
+\end{solution}
+
+\end{enumerate}
+\end{document}
