@@ -4,11 +4,10 @@ repo_url: https://github.com/colinmorris/csc236
 edit_uri: ''
 
 nav:
-  - 'Home': 'index.md'
+  - 'Announcements': 'announcements.md'
   - 'Lectures & tutorials': 'lectures_and_tutorials.md'
   - 'Assignments': 'assignments.md'
-  - 'Discussion board': https://piazza.com/utoronto.ca/winter2020/csc236/
-  - 'Announcements': 'announcements.md'
+  - 'Piazza': https://piazza.com/utoronto.ca/winter2020/csc236/
 
 markdown_extensions:
   - tables
