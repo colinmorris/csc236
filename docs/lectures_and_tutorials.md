@@ -5,7 +5,7 @@ Lectures take place Monday and Wednesday from 12:10-13:00 (LEC0201) and 13:10-14
 Week    | Lecture slides (raw) | Annotated (12:00) | Annotated (13:00) | Tutorial
 --------|----------------------|-------------------|-------------------|--------
 Week 1: Simple induction | [w1.pdf](lecture_slides/w1.pdf) | [w1_lec1_annotated.pdf](lecture_slides/w1_lec1_annotated.pdf) | [w1_lec2_annotated.pdf](lecture_slides/w1_lec2_annotated.pdf) | [ex1.pdf](exercises/ex1.pdf) ([solutions](exercises/ex1_solutions.pdf))
-Week 2: Complete induction | [w2.pdf](lecture_slides/w2.pdf) |  |  | [ex2.pdf](exercises/ex2.pdf)
+Week 2: Complete induction | [w2.pdf](lecture_slides/w2.pdf) | [w2_lec1_annotated.pdf](lecture_slides/w2_lec1_annotated.pdf) (with post-hoc annotations/context) | [w2_lec2_annotated.pdf](lecture_slides/w2_lec2_annotated.pdf) | [ex2.pdf](exercises/ex2.pdf)
 
 ## Tutorial format
 
