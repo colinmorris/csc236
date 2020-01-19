@@ -1,6 +1,7 @@
 # Announcements
 
 ## Week 3
+* Jan 19: A new [Tests](../tests) section has been added to the website, with information about midterms and the exam.
 * Jan 19: Beginning this week, several tutorial rooms have changed. Check the [Lectures & tutorials](../lectures_and_tutorials#tutorial-rooms) section to see if your tutorial will be in a new room. (This will be true if-and-only-if your tutorial was in a building other than University College).
 
 ## Week 1

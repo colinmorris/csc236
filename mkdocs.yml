@@ -7,6 +7,7 @@ nav:
   - 'Announcements': 'announcements.md'
   - 'Lectures & tutorials': 'lectures_and_tutorials.md'
   - 'Assignments': 'assignments.md'
+  - 'Tests': 'tests.md'
   - 'Piazza': https://piazza.com/utoronto.ca/winter2020/csc236/
 
 markdown_extensions:
