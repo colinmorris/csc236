@@ -6,6 +6,7 @@ Week    | Lecture slides (raw) | Annotated (12:00) | Annotated (13:00) | Tutoria
 --------|----------------------|-------------------|-------------------|--------
 Week 1: Simple induction | [w1.pdf](lecture_slides/w1.pdf) | [w1_lec1_annotated.pdf](lecture_slides/w1_lec1_annotated.pdf) | [w1_lec2_annotated.pdf](lecture_slides/w1_lec2_annotated.pdf) | [ex1.pdf](exercises/ex1.pdf) ([solutions](exercises/ex1_solutions.pdf))
 Week 2: Complete induction | [w2.pdf](lecture_slides/w2.pdf) | [w2_lec1_annotated.pdf](lecture_slides/w2_lec1_annotated.pdf) (with post-hoc annotations/context) | [w2_lec2_annotated.pdf](lecture_slides/w2_lec2_annotated.pdf) | [ex2.pdf](exercises/ex2.pdf) ([solutions](exercises/ex2_solutions.pdf))
+Week 3: Structural induction & well-ordering | [w3.pdf](lecture_slides/w3.pdf) |   |   | [ex3.pdf](exercises/ex3.pdf)
 
 ## Tutorial format
 
