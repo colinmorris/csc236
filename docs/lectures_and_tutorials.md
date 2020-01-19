@@ -23,15 +23,13 @@ There will be ten quizzes. The quiz during the first week will be just for pract
 
 ## Tutorial rooms
 
-Tutorials are on Friday at the same time as lecture. Please use the table below to determine your tutorial room.
+Tutorials are on Friday at the same time as lecture. Please use the table below to determine your tutorial room. **Important**: beginning Friday January 24th, several tutorial sections will be held in new rooms. Rooms in bold are different from the previous schedule.
 
 Surname range  | 12:10-13:00    | 13:10-14:00
 ---------------|----------------|-------------
-A-Gu           |       RW143    |       AB114
+A-Gu           |       <s>RW143</s> **UC140**    |     <s>AB114</s> **UC152**
 Gv-Mo          |        UC144   |       UC144
-Mp-Tu          |        UC152   |       BF215
-Tv-Z           |        UC330   |       BF323
+Mp-Tu          |        UC152   |       <s>BF215</s> **UC140**
+Tv-Z           |        UC330   |       <s>BF323</s> **UC261**
 
 Name ranges are inclusive. For example, if your last name is 'Morris', you should go to UC144 for tutorial.
-
-For reference, AB = Astronomy and Astrophysics, BF = Bancroft Building, RW = Ramsay Weight, and UC = University College.
