@@ -21,7 +21,7 @@ extra_css:
   - extra.css
 
 extra:
-  markus_url: 'TBD' #https://markus.teach.cs.toronto.edu/csc236-2020-01
+  markus_url: https://markus.teach.cs.toronto.edu/csc236-2020-01
   discussion_url: https://piazza.com/utoronto.ca/winter2020/csc236/
 
 plugins:
