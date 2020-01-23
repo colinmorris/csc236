@@ -1,6 +1,7 @@
 # Announcements
 
 ## Week 3
+* Jan 23: I will be holding extra office hours next Monday the 27th from 2-4pm (i.e. immediately after lecture) in BA3289. Feel free to drop by, especially if you have questions about assignment 1 (or need LaTeX help).
 * Jan 19: A new [Tests](../tests) section has been added to the website, with information about midterms and the exam.
 * Jan 19: Beginning this week, several tutorial rooms have changed. Check the [Lectures & tutorials](../lectures_and_tutorials#tutorial-rooms) section to see if your tutorial will be in a new room. (This will be true if-and-only-if your tutorial was in a building other than University College).
 
