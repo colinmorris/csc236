@@ -1,5 +1,8 @@
 # Announcements
 
+## Week 4
+* Jan 28: I will be holding even more extra office hours today, from 2-4pm in BA3201.
+
 ## Week 3
 * Jan 23: I will be holding extra office hours next Monday the 27th from 2-4pm (i.e. immediately after lecture) in BA3289. Feel free to drop by, especially if you have questions about assignment 1 (or need LaTeX help).
 * Jan 19: A new [Tests](../tests) section has been added to the website, with information about midterms and the exam.
