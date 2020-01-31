@@ -1,6 +1,7 @@
 # Announcements
 
 ## Week 4
+* Jan 30: Some links to past midterms have been posted to the [Tests](../tests) section of the website.
 * Jan 28: I will be holding even more extra office hours today, from 2-4pm in BA3201.
 
 ## Week 3
