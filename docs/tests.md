@@ -14,7 +14,7 @@ Our first midterm will be held Monday February 3, during the time that would nor
 
 The 12:10-13:00 midterm will take place in EX320 (the Exam Centre). 
 
-The location of the 13:10-14:00 midterm will depend on the last letter of your surname:
+The location of the 13:10-14:00 midterm will depend on the first letter of your surname:
 
 * **A-M** LM 162 (Lash Miller)
 * **N-Z** MP 103 (McLennan Physical Laboratories)
