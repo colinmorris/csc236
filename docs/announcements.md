@@ -1,5 +1,8 @@
 # Announcements
 
+## Week 5
+* Feb 3: [Solutions for the first midterm](../misc/t1_solutions.pdf) have been posted to the Tests page.
+
 ## Week 4
 * Feb 1: In addition to the solutions to the tutorial exercises for week 4, quiz solutions have also been posted to the [Lectures & tutorials](../lectures_and_tutorials) section. I'll continue to post solutions for future quizzes from this point.
 * Feb 1: Sample solutions for assignment 1 have been posted to the [Assignments](../assignments) section of the website.

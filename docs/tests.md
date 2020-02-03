@@ -32,6 +32,10 @@ Below are some links to past midterms from previous offerings of the course. The
 
 The best preparation for the midterm will likely involve reviewing lecture notes, problems from the tutorial exercises and quizzes, and the first assignment. It will also likely be helpful to work through extra practice problems. You can find some at the end of the induction chapter of the [Vassos course notes](http://www.cs.toronto.edu/~vassos/b36-notes/notes.pdf). [David Liu's course notes](https://www.cs.toronto.edu/~david/courses/csc236_w14/resources/notes.pdf) also include some good exercises at the end of the chapter on induction. If you're hungry for yet more examples, there are many good introductory textbooks on proofs which will have lots of induction examples - one good one I would recommend is "Concrete Mathematics" by Ronald Graham, Donald Knuth, and Oren Patashnik.
 
+#### Solutions
+
+[t1_solutions.pdf](../misc/t1_solutions.pdf)
+
 ### Midterm 2 (March 16)
 
 The second midterm will be held Monday March 16.
