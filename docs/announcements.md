@@ -1,5 +1,8 @@
 # Announcements
 
+## Week 6
+* Feb 12: Grades for the first midterm have been posted to MarkUs.
+
 ## Week 5
 * Feb 3: [Solutions for the first midterm](../misc/t1_solutions.pdf) have been posted to the Tests page.
 
