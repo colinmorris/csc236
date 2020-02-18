@@ -5,7 +5,7 @@ This course includes three assignments, each worth 7%, for a total of 21%. Assig
 Assignment | Content | Due    | Solutions
 -----------|---------|--------|-----------
 [A1](assignments/a1.pdf) ([a1_starter.tex](assignments/a1_starter.tex)) | Induction (weeks 1-3) | Thursday January 30 (week 4) | [a1_solutions.pdf](assignments/a1_solutions.pdf)
-A2         | Recurrences, program correctness (weeks 4-8) | Thursday March 12 (week 9) |
+A2 [preview](assignments/a2_preview.pdf), [umax.py](assignments/umax.py)  | Recurrences, program correctness (weeks 4-8) | Thursday March 12 (week 9) |
 A3         | Formal languages (weeks 9-11) | Thursday April 2 (week 12) |
 
 Assignments must be submitted by 3 p.m. on the due date.

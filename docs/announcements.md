@@ -1,5 +1,8 @@
 # Announcements
 
+## Week 7 (Reading Week)
+* Feb 18: A [sneak peek of assignment 2](../assignments/a2_preview.pdf) has been posted. The final assignment will include one additional question, and will be posted (along with starter `.tex` source) later this week.
+
 ## Week 6
 * Feb 12: Grades for the first midterm have been posted to MarkUs.
 
