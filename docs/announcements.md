@@ -1,6 +1,9 @@
 # Announcements
 
-## Week 7 (Reading Week)
+## Week 7
+* Feb 24: A1 results have been posted to MarkUs. Note that, as mentioned in lecture and on Piazza, question 2b was originally marked out of 3, but I decided to reduce its weight by half. To calculate your 'real' A1 grade, you should multiply your q2b grade by .5 and treat the assignment as being out of 31.5 instead of 33.
+
+## Week 6.5 (Reading Week)
 * Feb 18: A [sneak peek of assignment 2](../assignments/a2_preview.pdf) has been posted. The final assignment will include one additional question, and will be posted (along with starter `.tex` source) later this week.
 
 ## Week 6
