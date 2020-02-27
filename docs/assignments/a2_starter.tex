@@ -1,0 +1,304 @@
+% This is a starter document for writing up your solutions to CSC236 W20's assignment 2
+% See http://www.cs.toronto.edu/~colin/236/W20/assignments/ for more information on assignments, and helpful LaTeX resources.
+% Use of this starter document is not required.
+\documentclass[boldsans]{article}
+%% Package imports
+\usepackage{ccfonts} % Purely for aesthetics - can be removed
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true} % Colored hyperlinks
+\usepackage{changepage}   % for the adjustwidth environment
+
+% Setting up code snippets
+\usepackage{listings}
+\usepackage{xcolor}
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+\lstdefinestyle{mystyle}{
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\small,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+% Setting up environments for numbered lemmas/theorems/corollaries, and proofs
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}[section]
+\providecommand*{\theoremautorefname}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\providecommand*{\lemmaautorefname}{Lemma}
+\newtheorem{corollary}{Corollary}[theorem]
+\providecommand*{\corollaryautorefname}{Corollary}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Define a few convenient custom commands and aliases. Normally, these might go into a separate
+% .sty file (e.g. helpers.sty), which we would then import with the command \usepackage{helpers}
+% I'm including them directly in the main tex file in this case, just to make it simpler to share.
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\NOT}{\neg}
+\newcommand{\AND}{\wedge}
+\newcommand{\OR}{\vee}
+% Macros for proofs
+\newcommand{\proofheader}[1]{\noindent \underline{#1}}
+\newcommand{\base}{\proofheader{Base Case}:}
+\newcommand{\istep}{\proofheader{Inductive Step}:}
+\newenvironment{solution}
+{\bigskip \noindent \textbf{Solution: \\}}
+{}
+% Inline comments for use in equation environments
+\newcommand{\INLINE}[1]{\qquad \text{\# #1}}
+\DeclareMathOperator{\len}{len}
+\newcommand{\emptylist}{[~]}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\title{CSC236 Winter 2020 Assignment \#2}
+% Replace the placeholder text on the below 2 lines with your name and utorid
+\newcommand{\name}{Your full name goes here}
+\newcommand{\utorid}{Your utorid}
+\author{\name \\ \textit{\utorid}}
+
+\begin{document}
+\maketitle
+
+\begin{enumerate}
+
+% Q1
+% (Feel free to delete the restatement of the questions, if you'd rather just go straight into your solution)
+\item In lecture, we used the following recurrence to represent the steps taken by an implementation of mergesort on a list of size $n$:
+\begin{equation*}
+  T_0(n) = 
+\begin{cases}
+  1 &\text{if } n = 1 \\
+  n + 2T_0(n/2) &\text{if } n > 1
+\end{cases}
+\end{equation*}
+(This recurrence assumes $n$ is a power of 2, hence the absence of floor and ceiling. You may maintain this assumption throughout this question.)
+
+In reality, some implementations of divide-and-conquer algorithms stop the recursion before the input size becomes trivial. For example, a programmer may find that their mergesort implementation ends up running a bit faster if they stop recursing when the list size is less than 10, sorting these small lists using selection sort.
+
+Consider the following recurrence, which models this scenario:
+
+\begin{equation*}
+  T(n) = 
+\begin{cases}
+  c &\text{if } n \leq k \\
+  n + 2T(n/2) &\text{if } n > k
+\end{cases}
+\end{equation*}
+
+$k, c \in \N^+$ are fixed constants, where $k$ represents the largest problem size which is solved non-recursively, and $c$ represents the cost of solving these small problems.
+
+\begin{enumerate}
+\item Use unwinding\footnote{
+\textbf{Logistical note:} If you wish to use tree diagrams for the unwinding portions of this question (parts (a) and (c)), you are welcome to include scanned hand-drawn images, or diagrams generated using other software. See \href{https://en.wikibooks.org/wiki/LaTeX/Importing_Graphics}{this chapter of the \LaTeX Wikibook} for information on including images in \LaTeX documents. You may also describe the solution tree without explicitly drawing it (a table may be helpful).
+}
+to find a closed form for $T(n)$ when $n \geq k$. (You do not need to prove that your closed form is correct, but it should be clear how you arrived at it.)
+
+\begin{solution}
+Your solution goes here.
+\end{solution}
+
+\item What is the big-$\Theta$ complexity of $T(n)$? Does it depend on $k$? Briefly justify your answer (no proof required). You may not assume $n \geq k$ for this part.
+
+\begin{solution}
+Your solution goes here.
+\end{solution}
+
+\item Rather than assigning a fixed cost to the $n \leq k$ case, it may be more realistic to use a function of $n$, since there are a range of input sizes which are handled non-recursively. Since selection sort is a $\Theta(n^2)$ algorithm, we'll define our new recurrence $T'(n)$ to be
+\begin{equation*}
+  T'(n) = 
+\begin{cases}
+  n^2 &\text{if } n \leq k \\
+  n + 2T'(n/2) &\text{if } n > k
+\end{cases}
+\end{equation*}
+Find a closed form for $T'(n)$ for $n \geq k$, and show how you got there. Rather than unwinding from scratch, you may find it simpler to build on your work from part (a).
+
+\begin{solution}
+Your solution goes here.
+\end{solution}
+
+\item Is $T'(n) \in \Theta(T(n))$? Why or why not? Briefly justify your answer. As in part (b), you may not assume $n \geq k$.
+
+\begin{solution}
+Your solution goes here.
+\end{solution}
+
+\end{enumerate}
+
+% Q2: recursive correctness
+\newpage
+\item Our boss has tasked us with writing a program to find the \textit{unique} maximum of a non-empty list of positive integers. If there is no unique maximum, our program should signal this by returning a negative number. For example, on input \texttt{[5, 2, 1, 2]}, our algorithm should return 5. Given \texttt{[2, 1, 2]}, we may return -1, -2, -236, or any other negative number.
+
+Below is our first attempt to solve this problem.\footnote{
+You can download the code for this question from \url{http://www.cs.toronto.edu/~colin/236/W20/assignments/umax.py}
+}
+
+\begin{lstlisting}[language=Python]
+def umax(A):
+    if len(A) == 1:
+        return A[0]
+    head = A[0]
+    tail = A[1:]
+    tmax = umax(tail)
+    if head == tmax:
+        return -1
+    elif head > tmax:
+        return head
+    else:
+        return tmax
+\end{lstlisting}
+
+\begin{enumerate}
+    \item Based on the informal specification above, write precise pre- and post-conditions for umax. Your postcondition should use symbolic notation rather than restating the English description above (``find the unique maximum...''). The following postcondition was used in lecture for the function \texttt{max}, which found the (not necessarily unique) maximum of a list. It may be a useful starting point:
+    
+    \medskip
+    
+    \texttt{max(A) = x} where $\left(\exists j \in \N, A[j] = x\right)$ $\AND$ $\left(\forall i \in \N, i < \mathrm{len}(A) \implies A[i] \leq x\right)$
+    
+    \medskip
+    
+    You may find it helpful to formally define `helper' functions or predicates, as is done in question 3.
+
+\begin{solution}
+Your solution goes here.
+\end{solution}
+
+\item The given Python code above has a bug. Demonstrate the bug by finding a value of $A$ which meets the precondition, where umax misbehaves. For the value of $A$ that you find, you should state the expected behaviour (according to your postcondition) and how it differs from the function's actual behaviour on that input.
+
+\begin{solution}
+Your solution goes here.
+\end{solution}
+
+\item Consider our second draft of the function umax below:
+\begin{lstlisting}[language=Python]
+def umax(A):
+    if len(A) == 1:
+        return A[0]
+    head = A[0]
+    tail = A[1:]
+    tmax = umax(tail)
+    if head == tmax:
+        return -1 * head
+    elif head > abs(tmax):
+        return head
+    else:
+        return tmax
+\end{lstlisting}
+Prove that this function is correct with respect to the specifications you devised in part (a). 
+
+\begin{solution}
+Your solution goes here.
+\end{solution}
+
+\end{enumerate}
+
+\newpage
+\item The function \texttt{maj} takes as input a list of natural numbers and, if the list has a majority element (one that appears more often than all other elements combined), it returns that element. For example \texttt{maj([1, 3, 3, 2, 3])} returns 3.\footnote{
+You can download the code for this question from \url{http://www.cs.toronto.edu/~colin/236/W20/assignments/maj.py}
+}
+\begin{lstlisting}[language=Python]
+def R(A):
+    B = []
+    i = 0
+    while i < len(A):
+        a = A[i]
+        b = A[(i+1) % len(A)]
+        if a == b:
+            B.append(a)
+        i += 1
+    return B
+
+def maj(A):
+    prev = A
+    curr = R(A)
+    while len(curr) != len(prev):
+        prev = curr
+        curr = R(curr)
+    return curr[0]
+\end{lstlisting}
+
+Prove that maj is correct.
+
+% Feel free to add any additional definitions to this section if you find them useful to your proof.
+\section{Definitions}
+
+% Macro for an indented informal English description of a definition
+\newcommand{\gloss}[1]{
+\begin{adjustwidth}{10mm}{}
+\textit{ i.e. #1 }
+\end{adjustwidth}
+}
+
+% We could write e.g. $COUNT(A, x)$, but the problem with this is that LaTeX will treat this as
+% the product of variables C, O, U, N, and T, rather than a function name. These macros will
+% make sure our custom functions are typeset properly. They can only be used in math mode.
+\newcommand{\COUNT}{\operatorname{COUNT}}
+\newcommand{\ad}{\operatorname{ADVANTAGE}}
+\newcommand{\maj}{\operatorname{MAJORITY}}
+\newcommand{\pairs}{\operatorname{PAIRS}}
+\newcommand{\SUCC}{\operatorname{SUCC}}
+\newcommand{\R}{\operatorname{R}}
+
+We will use $\N^*$ to denote the set of lists of natural numbers. Each of the functions below takes as its first argument a list $A \in \N^*$.
+
+$\COUNT(A, x)$: $| \{ i \in \N \mid A[i] = x\} |$
+
+\gloss{the number of occurrences of $x$ in list $A$}
+
+$\SUCC(A, i): \begin{cases}
+  0 &\text{if } i = \len(A)-1 \\
+  i+1 &\text{if } i < \len(A)-1
+\end{cases}$
+
+\gloss{the `next' index in list $A$ after index $i$, treating $A$ as a circular list (with the last index `wrapping around' back to index 0). Not defined if $i \geq \len(A)$.}
+
+$\pairs(A, x)$: $|  \{ i \in \N \mid A[i] = A[\SUCC(A, i)] = x\} |$
+
+\gloss{the number of $[x, x]$ pairs in list $A$, again treating $A$ as circular}
+
+$\ad(A, x)$: $\COUNT(A, x) - len(A) / 2$
+
+$\maj(A, x)$: $\ad(A, x) > 0$
+
+\gloss{$x$ is the majority element of $A$}
+
+% Since this proof will be somewhat long, organizing it into sections may be helpful.
+% one idea is to have a section for proofs about the R helper function, and another
+% for proofs about the behaviour of R. Alternatively, you might want to have one section
+% for every 'major' theorem (see the appendix in the handout, which devotes a section 
+% to the "R counts are pair counts" theorem).
+\section{\texttt{R} proofs}
+
+% You may treat this theorem as given (since it was proven in the appendix of the assignment handout).
+% For examples of use of the amsthm environments like theorem, lemma, and proof, as well as the use of
+% \ref{} to refer to theorems and lemmas, see the latex source for the appendix at:
+% http://www.cs.toronto.edu/~colin/236/W20/assignments/a2q3.tex
+% See also: https://en.wikibooks.org/wiki/LaTeX/Theorems
+\begin{theorem}[R ``correctness'']
+\label{rcorr}
+Given any $A \in \N^*$, $\R(A)$ terminates and returns a list of natural numbers $B$ such that 
+$\forall x \in \N, \COUNT(B, x) = \pairs(A, x)$
+\end{theorem}
+
+\section{\texttt{maj} proofs}
+
+\end{enumerate}
+\end{document}

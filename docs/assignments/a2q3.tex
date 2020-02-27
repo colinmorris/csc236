@@ -1,0 +1,167 @@
+% This is the .tex code to generate the appendix of the A2 handout. It's provided as an example of 
+% usage of environments from the amsthm package to define theorems, lemmas and proofs, as well as
+% use of \ref, (and similar commands like \autoref and \Cref) to refer to numbered theorems, lemmas,
+% and other items.
+\documentclass[boldsans]{article}
+\usepackage{ccfonts,amsmath,amssymb}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true}
+\usepackage{changepage}   % for the adjustwidth environment
+% Provides the \Cref command
+\usepackage{cleveref}
+% Allows some customization of list item identifiers
+\usepackage{enumitem}
+
+% Setting up amsthm environments. Theorems and lemmas are numbered sequentially (using a shared
+% counter which resets in each section).
+\usepackage{amsthm}
+\newtheorem{theorem}{Theorem}[section]
+\providecommand*{\theoremautorefname}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\providecommand*{\lemmaautorefname}{Lemma}
+\newtheorem{corollary}{Corollary}[theorem]
+\providecommand*{\corollaryautorefname}{Corollary}
+
+% Some generically useful macros
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\NOT}{\neg}
+\newcommand{\AND}{\wedge}
+\newcommand{\OR}{\vee}
+\newcommand{\proofheader}[1]{\noindent \underline{#1}}
+\newcommand{\base}{\proofheader{Base Case}:}
+\newcommand{\istep}{\proofheader{Inductive Step}:}
+% Inline comments for use in equation environments
+\newcommand{\INLINE}[1]{\qquad \text{\# #1}}
+\DeclareMathOperator{\len}{len}
+\newcommand{\emptylist}{[~]}
+
+\title{A2 Appendix: q3 starter theorem}
+\date{}
+
+\begin{document}
+\maketitle
+
+\newcommand{\COUNT}{\operatorname{COUNT}}
+\newcommand{\ad}{\operatorname{ADVANTAGE}}
+\newcommand{\maj}{\operatorname{MAJORITY}}
+\newcommand{\pairs}{\operatorname{PAIRS}}
+\newcommand{\ppairs}{\operatorname{PPAIRS}}
+\newcommand{\SUCC}{\operatorname{SUCC}}
+\newcommand{\R}{\operatorname{R}}
+
+\section{Definitions}
+We will begin by introducing some formally defined functions, predicates, and other notation (along with informal English descriptions) which capture some useful concepts. (You are welcome to introduce additional such definitions in your own proof.)
+
+\newcommand{\gloss}[1]{
+\begin{adjustwidth}{10mm}{}
+\textit{ i.e. #1 }
+\end{adjustwidth}
+}
+
+We will use $\N^*$ to denote the set of lists of natural numbers. Each of the functions below takes as its first argument a list $A \in \N^*$.
+
+$\COUNT(A, x)$: $| \{ i \in \N \mid A[i] = x\} |$
+
+\gloss{the number of occurrences of $x$ in list $A$}
+
+$\SUCC(A, i): \begin{cases}
+  0 &\text{if } i = \len(A)-1 \\
+  i+1 &\text{if } i < \len(A)-1
+\end{cases}$
+
+\gloss{the `next' index in list $A$ after index $i$, treating $A$ as a circular list (with the last index `wrapping around' back to index 0). Not defined if $i \geq \len(A)$.}
+
+$\pairs(A, x)$: $|  \{ i \in \N \mid A[i] = A[\SUCC(A, i)] = x\} |$
+
+\gloss{the number of $[x, x]$ pairs in list $A$, again treating $A$ as circular}
+
+$\ad(A, x)$: $\COUNT(A, x) - len(A) / 2$
+
+$\maj(A, x)$: $\ad(A, x) > 0$
+
+\gloss{$x$ is the majority element of $A$}
+
+
+\section{R counts are pair counts}
+
+This section proves a theorem about a postcondition of the function \texttt{R}. You may use this theorem in your proof. For the purposes of answering question 3, \textbf{you do not need to read or understand the proof of \autoref{rcorr} that follows}. However, you may find it useful as an example to model your proof on, in terms of content, organization (notice how we take a major result and break it down into several digestible sub-proofs), and level of rigour.
+
+\begin{theorem}[R ``correctness'']
+\label{rcorr}
+Given any $A \in \N^*$, $\R(A)$ terminates and returns a list of natural numbers $B$ such that 
+$\forall x \in \N, \COUNT(B, x) = \pairs(A, x)$
+\end{theorem}
+
+We will prove this theorem in pieces, first proving a loop invariant for R, then proving that R terminates, and finally proving that termination implies the postcondition above.
+
+For our loop invariant, we introduce the following function, $\ppairs$, which counts the pairs in a prefix of a list:
+
+$\ppairs(A, x, k)$: $|  \{ i \in \N \mid i < k \AND A[i] = A[\SUCC(A, i)] = x\} |$
+
+\gloss{the number of $x$ pairs in a length $k$ prefix of $A$. (Note that we use $A$'s successor function, rather than one specific to the prefix $A[:k]$. This means we are allowed to `peek' ahead to the $k+1$th element of $A$, if it exists, rather than wrapping around to the beginning of the prefix.}
+
+\begin{lemma}
+\label{ppairidentity}
+$\pairs(A, x) = \ppairs(A, x, \len(A))$.
+\end{lemma}
+\begin{proof}
+When $k = \len(A)$, the $i < k$ condition in the definition of $\ppairs$ does not exclude any valid indices of $A$, so the definitions of $\pairs$ and $\ppairs$ become equivalent.
+\end{proof}
+
+
+\begin{lemma}[R loop invariant]
+\label{rinv}
+The following are all true at the end of the $j$th iteration of R's while loop (if it occurs), when $A$ is a list of natural numbers:
+
+\begin{enumerate}[ref=(\alph*),label=(\alph*)]
+    \item $i_j \leq \len(A)$ \label{irange}
+    \item $\forall x \in \N, \COUNT(B_j, x) = \ppairs(A, x, i_j)$ \label{bpairs}
+    \item $B_j$ contains only natural numbers \label{bnat}
+\end{enumerate}
+\end{lemma}
+\begin{proof}
+\base Before the first iteration, $i=0$, so \ref{irange} holds. $B_0 = \emptylist$, so \ref{bnat} trivially holds. \ref{bpairs} holds because, by definition, $\COUNT(\emptylist, x)$ and $\ppairs(A, x, 0)$ are 0 for any $x$ and $A$.
+
+\istep Assume that the invariant holds at the end of the $j$th iteration, and assume that the code runs for a $j+1$th iteration.
+
+By the while loop condition (line 4), $i_j < \len(A)$, so it follows that $i_j + 1 \leq \len(A)$ (\ref{irange}).
+
+Either $B_{j+1} = B_j$, or line 8 is reached and $B_{j+1}$ differs from $B_j$ by the addition of element $a_{j+1} = A[i_j] \in \N$. In either case, \ref{bnat} is satisfied.
+
+
+It remains to show \ref{bpairs}. Let $x \in \N$, and consider
+\begin{align*}
+\Delta_c &= \COUNT(B_{j+1}, x) - \COUNT(B_{j}, x) \\
+\Delta_p &= \ppairs(A, x, i_{j+1}) - \ppairs(A, x, i_j) \\
+&= \ppairs(A, x, i_j +1) - \ppairs(A, x, i_j)
+\end{align*}
+
+By the code (lines 7-8), we can see $\Delta_c$ is 1 if $a_{j+1} = b_{j+1} = x$, and 0 otherwise.
+
+By the definition of $\ppairs$, we can see that $\Delta_p$ is 1 if $A[i_j] = A[\SUCC(A, i_j)] = x$, and 0 otherwise. By line 5, $a_{j+1} = A[i_j]$. By line 6 and the definition of $\SUCC$, $b_{j+1} = A[\SUCC(A, i_j)]$. Therefore $\Delta_c = \Delta_p$. Since \ref{bpairs} holds at the beginning of the iteration, and for arbitrary $x$, the change in the LHS and the RHS (relative to the values at the beginning of the iteration) is identical, it follows that \ref{bpairs} holds at the end of the iteration.
+\end{proof}
+
+\begin{lemma}[R termination]
+\label{rterm}
+R terminates on any $A \in \N^*$
+\end{lemma}
+\begin{proof}
+Let $q_j = \len(A) - i_j$ be a quantity associated with each loop iteration $j$. By \Cref{rinv} \ref{irange}, $q_j \in \N$. By line 9, $q_{j+1} = q_j - 1$. Thus $q_0, q_1, q_2, \ldots$ is a decreasing sequence of natural numbers, and therefore finite. Therefore, R terminates.
+\end{proof}
+
+We are now ready to prove the postcondition of $R$ given in \autoref{rcorr}.
+
+\begin{proof}[Proof of \ref{rcorr}]
+Let $A$ be an arbitrary list.
+By \Cref{rterm} the loop on line 4 terminates at the end of some iteration, call it $j$. By the loop condition, $i_j \geq \len(A)$. By \Cref{rinv} \ref{irange} $i_j \leq \len(A)$. Therefore $i_j = \len(A)$.
+
+By line 10, we return $B_j$. By \ref{rinv}, we have that $\forall x \in \N$
+\begin{align*}
+\COUNT(B_j, x) &= \ppairs(A, x, i_j) \\
+&= \ppairs(A, x, \len(A)) \\
+& = \pairs(A, x) \INLINE{by \Cref{ppairidentity}}
+\end{align*}
+Also, by \ref{rinv}, we know that $B_j$ contains only natural numbers.
+\end{proof}
+
+\end{document}
