@@ -10,7 +10,7 @@ Week 3: Structural induction & well-ordering | [w3.pdf](lecture_slides/w3.pdf) |
 Week 4: Runtime of recursive algorithms, unwinding | [w4.pdf](lecture_slides/w4.pdf) | [w4_lec1_annotated.pdf](lecture_slides/w4_lec1_annotated.pdf)  | [w4_lec2_annotated.pdf](lecture_slides/w4_lec2_annotated.pdf) (with post-hoc annotations/context)| [ex4.pdf](exercises/ex4.pdf) ([solutions](exercises/ex4_solutions.pdf), [quiz 1](exercises/q4_v1_solutions.pdf), [quiz 2](exercises/q4_v2_solutions.pdf))
 Week 5: Master Theorem | [w5.pdf](lecture_slides/w5.pdf) | [w5_lec1_annotated.pdf](lecture_slides/w5_lec1_annotated.pdf) (with post-hoc annotations) | [w5_lec2_annotated.pdf](lecture_slides/w5_lec2_annotated.pdf) | *no tutorial this week*
 Week 6: Recursive correctness | [w6.pdf](lecture_slides/w6.pdf) | [w6_lec1_annotated.pdf](lecture_slides/w6_lec1_annotated.pdf) (with post-hoc annotations) | [w6_lec2_annotated.pdf](lecture_slides/w6_lec2_annotated.pdf) | [ex6.pdf](exercises/ex6.pdf) ([solutions](exercises/ex6_solutions.pdf), [quiz 1](exercises/q6_v1_solutions.pdf), [quiz 2](exercises/q6_v2_solutions.pdf))
-Week 7: Iterative (partial) correctness | [w7.pdf](lecture_slides/w7.pdf) | [w7_lec1_annotated.pdf](lecture_slides/w7_lec1_annotated.pdf) | [w7_lec2_annotated.pdf](lecture_slides/w7_lec2_annotated.pdf) | [ex7.pdf](exercises/ex7.pdf) |
+Week 7: Iterative (partial) correctness | [w7.pdf](lecture_slides/w7.pdf) | [w7_lec1_annotated.pdf](lecture_slides/w7_lec1_annotated.pdf) | [w7_lec2_annotated.pdf](lecture_slides/w7_lec2_annotated.pdf) | [ex7.pdf](exercises/ex7.pdf)  ([solutions](exercises/ex7_solutions.pdf), [quiz 1](exercises/q7_v1_solutions.pdf), [quiz 2](exercises/q7_v2_solutions.pdf))|
 
 ## Tutorial format
 
