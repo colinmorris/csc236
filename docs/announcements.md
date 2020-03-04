@@ -2,8 +2,8 @@
 
 ## Week 8
 * March 4: The posted assignment 2 handout has been updated with two minor clarification:
-** Q1 parts (b) and (d): added instruction to not use the Master Theorem
-** Q3: footnote added to clarify that a precondition of maj is that it contains a majority element
+    * Q1 parts (b) and (d): added instruction to not use the Master Theorem
+    * Q3: footnote added to clarify that a precondition of maj is that it contains a majority element
 * March 3: The week 8 exercises have been updated with one additional (short) question. 
 
 ## Week 7
