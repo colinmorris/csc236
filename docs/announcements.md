@@ -1,6 +1,7 @@
 # Announcements
 
 ## Week 8
+* March 5: I will be holding extra office hours on Friday March 6 at 2pm in BA4290.
 * March 4: The posted assignment 2 handout has been updated with two minor clarification:
     * Q1 parts (b) and (d): added instruction to not use the Master Theorem
     * Q3: footnote added to clarify that a precondition of maj is that it contains a majority element
