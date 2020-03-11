@@ -1,5 +1,8 @@
 # Announcements
 
+## Week 9:
+* March 11: Following an in-class vote, the deadline for assignment 2 has been extended to Sunday March 15th at 3pm.
+
 ## Week 8
 * March 5: I will be holding extra office hours on Friday March 6 at 2pm in BA4290.
 * March 4: The posted assignment 2 handout has been updated with two minor clarification:
