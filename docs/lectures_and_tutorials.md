@@ -12,7 +12,7 @@ Week 5: Master Theorem | [w5.pdf](lecture_slides/w5.pdf) | [w5_lec1_annotated.pd
 Week 6: Recursive correctness | [w6.pdf](lecture_slides/w6.pdf) | [w6_lec1_annotated.pdf](lecture_slides/w6_lec1_annotated.pdf) (with post-hoc annotations) | [w6_lec2_annotated.pdf](lecture_slides/w6_lec2_annotated.pdf) | [ex6.pdf](exercises/ex6.pdf) ([solutions](exercises/ex6_solutions.pdf), [quiz 1](exercises/q6_v1_solutions.pdf), [quiz 2](exercises/q6_v2_solutions.pdf))
 Week 7: Iterative (partial) correctness | [w7.pdf](lecture_slides/w7.pdf) | [w7_lec1_annotated.pdf](lecture_slides/w7_lec1_annotated.pdf) | [w7_lec2_annotated.pdf](lecture_slides/w7_lec2_annotated.pdf) | [ex7.pdf](exercises/ex7.pdf)  ([solutions](exercises/ex7_solutions.pdf), [quiz 1](exercises/q7_v1_solutions.pdf), [quiz 2](exercises/q7_v2_solutions.pdf))|
 Week 8: Proving termination | [w8.pdf](lecture_slides/w8.pdf) (extra: cleaned up writeup of [merge partial correctness](lecture_slides/merge_proof.pdf) proof covered in lecture) | [w8_lec1_annotated.pdf](lecture_slides/w8_lec1_annotated.pdf)  | [w8_lec2_annotated.pdf](lecture_slides/w8_lec2_annotated.pdf) |  [ex8.pdf](exercises/ex8.pdf) ([solutions](exercises/ex8_solutions.pdf), [quiz 1](exercises/q8_v1_solutions.pdf), [quiz 2](exercises/q8_v2_solutions.pdf)) |
-Week 9: Formal languages/REs | [w9.pdf](lecture_slides/w9.pdf) |  |  | [ex9.pdf](exercises/ex9.pdf) |
+Week 9: Formal languages/REs | [w9.pdf](lecture_slides/w9.pdf) | [w9_lec1_annotated.pdf](lecture_slides/w9_lec1_annotated.pdf) | [w9_lec2_annotated.pdf](lecture_slides/w9_lec2_annotated.pdf)  | [ex9.pdf](exercises/ex9.pdf) |
 
 ## Tutorial format
 
