@@ -44,6 +44,19 @@ The 12:10-13:00 midterm will be written in EX320.
 
 The 13:10-14:00 midterm will be written in EX200.
 
+A 'cheat sheet', which will include the Master Theorem, will be provided when you write the test. (It will be also be published here before the test.)
+
+#### Past midterms
+
+Below are some links to past midterms from previous offerings of this course
+
+* 2018 [version 1](https://www.teach.cs.toronto.edu/~heap/Old/236/F18/t2_v1_sol.pdf), [version 2](https://www.teach.cs.toronto.edu/~heap/Old/236/F18/t2_v2_sol.pdf)
+* [2016](https://www.teach.cs.toronto.edu/~heap/Old/236/F18/OldTests/t2b2016.pdf) ([solutions](https://www.teach.cs.toronto.edu/~heap/Old/236/F18/OldTests/t2b2016-sol.pdf))
+* [2014](https://www.teach.cs.toronto.edu/~heap/Old/236/F18/OldTests/t2b.pdf) ([solutions](https://www.teach.cs.toronto.edu/~heap/Old/236/F18/OldTests/t2b-sol.pdf))
+* [2012](https://www.teach.cs.toronto.edu/~heap/Old/236/F18/OldTests/mt2a-sol.pdf)
+
+Note that these offerings had a heavier focus on recurrences than correctness, which is reflected in the distribution of test questions. We spent 3 weeks on correctness and 2 weeks on recurrences, so you should expect our midterm to have less weight on recurrences and more on correctness, compared to the examples above.
+
 ## Exam
 
 We will have a 3 hour exam with no aids allowed. The date and location will be announced at a later date.
