@@ -44,7 +44,7 @@ The 12:10-13:00 midterm will be written in EX320.
 
 The 13:10-14:00 midterm will be written in EX200.
 
-A 'cheat sheet', which will include the Master Theorem, will be provided when you write the test. (It will be also be published here before the test.)
+A copy of [this 'cheat sheet'](misc/t2_cheatsheet.pdf) will be handed out with the test.
 
 #### Past midterms
 
