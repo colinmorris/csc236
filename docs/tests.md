@@ -36,7 +36,9 @@ The best preparation for the midterm will likely involve reviewing lecture notes
 
 [t1_solutions.pdf](../misc/t1_solutions.pdf)
 
-### Midterm 2 (March 16)
+### Midterm 2 <s>(March 16)</s> **CANCELLED**
+
+**Update (March 13)**: Due to the university-wide cancellation of in-person classes, the planned second midterm will not be written as planned on March 16. Details of any make-up assessment to replace it will be announced at a later time.
 
 The second midterm will be held Monday March 16.
 

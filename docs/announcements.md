@@ -1,6 +1,9 @@
 # Announcements
 
 ## Week 9:
+* March 13: Some brief notes regarding the effect on this course of cancellation of in-person classes (stay tuned for more details, such as the delivery of lectures and tutorials going forward):
+    * Term test 2 (originally scheduled for March 16) is cancelled. (A replacement assessment may be announced later.)
+    * Today's tutorial and quiz will proceed as planned. Subsequent tutorials will be delivered online (with the exact details TBA).
 * March 13: A copy of the formula sheet that will be given out with term test 2 has been posted to the 'Tests' section of the course website.
 * March 11: Following an in-class vote, the deadline for assignment 2 has been extended to Sunday March 15th at 3pm.
 
