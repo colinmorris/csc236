@@ -1,6 +1,7 @@
 # Announcements
 
 ## Week 10:
+* March 16: Week 10 lecture recordings have been posted to the 'Lectures & Tutorials' section, alongside the lecture slides.
 * March 15: [I've posted a document](../last3weeks/) outlining the changes to the format of this course for our last 3 weeks. It's long, but please read it over.
 
 ## Week 9:
