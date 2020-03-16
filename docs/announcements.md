@@ -1,7 +1,7 @@
 # Announcements
 
 ## Week 10:
-* March 15: [I've posted a document](/last3weeks/) outlining the changes to the format of this course for our last 3 weeks. It's long, but please read it over.
+* March 15: [I've posted a document](../last3weeks/) outlining the changes to the format of this course for our last 3 weeks. It's long, but please read it over.
 
 ## Week 9:
 * March 13: Some brief notes regarding the effect on this course of cancellation of in-person classes (stay tuned for more details, such as the delivery of lectures and tutorials going forward):
