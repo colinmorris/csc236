@@ -2,6 +2,8 @@
 
 This page collects the various ways in which the delivery of this course will change during the last three weeks, following the university's decision to stop in-person classes, in response to the COVID-19 pandemic.
 
+This page will be updated over time as more details are worked out.
+
 ## Communication methods
 
 Our highest-bandwidth tool for communication will be the course discussion board on Piazza. Please continue to post questions there, and I will try to respond to them promptly. I will be posting announcements to Piazza. Important announcements will *also* continue to be posted to the 'Announcements' section of the course website.
