@@ -1,3 +1,5 @@
+<u>**See [this page](/last3weeks/) for changes to the course structure resulting from the cancellation of in-person classes.**</u>
+
 # CSC236, Winter 2020
 
 Welcome to the course website for CSC236, Introduction to the Theory of Computation. In this course you will augment your intuition as a programmer with analytical skills and proof. The course content comprises the following chapters:
@@ -71,7 +73,7 @@ Please verify that you meet the [prerequisites](http://calendar.artsci.utoronto.
   </tr>
   <tr>
     <td>Term test 2</td>
-    <td>Mon March 16</td>
+    <td>Mon March <s>16</s> 23</td>
   </tr>
 
   <tr>

@@ -36,17 +36,19 @@ The best preparation for the midterm will likely involve reviewing lecture notes
 
 [t1_solutions.pdf](../misc/t1_solutions.pdf)
 
-### Midterm 2 <s>(March 16)</s> **CANCELLED**
+### Midterm 2 <s>(March 16)</s> (March 23)
 
 **Update (March 13)**: Due to the university-wide cancellation of in-person classes, the planned second midterm will not be written as planned on March 16. Details of any make-up assessment to replace it will be announced at a later time.
 
-The second midterm will be held Monday March 16.
+**Update (March 15)**: An at-home midterm will be written March 23. See [this page](/last3weeks/) for details.
+
+<s>The second midterm will be held Monday March 16.
 
 The 12:10-13:00 midterm will be written in EX320.
 
 The 13:10-14:00 midterm will be written in EX200.
 
-A copy of [this 'cheat sheet'](misc/t2_cheatsheet.pdf) will be handed out with the test.
+A copy of [this 'cheat sheet'](misc/t2_cheatsheet.pdf) will be handed out with the test.</s>
 
 #### Past midterms
 
