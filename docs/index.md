@@ -1,4 +1,4 @@
-<u>**See [this page](/last3weeks/) for changes to the course structure resulting from the cancellation of in-person classes.**</u>
+<u style="font-size: 140%;">**See [this page for changes to the course structure](./last3weeks/) resulting from the cancellation of in-person classes.**</u>
 
 # CSC236, Winter 2020
 
