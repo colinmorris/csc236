@@ -40,7 +40,7 @@ The best preparation for the midterm will likely involve reviewing lecture notes
 
 **Update (March 13)**: Due to the university-wide cancellation of in-person classes, the planned second midterm will not be written as planned on March 16. Details of any make-up assessment to replace it will be announced at a later time.
 
-**Update (March 15)**: An at-home midterm will be written March 23. See [this page](/last3weeks/) for details.
+**Update (March 15)**: An at-home midterm will be written March 23. See [this page](../last3weeks/) for details.
 
 <s>The second midterm will be held Monday March 16.
 
