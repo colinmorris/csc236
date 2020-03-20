@@ -1,6 +1,7 @@
 # Announcements
 
 ## Week 10:
+* March 20: [Assignment 2 sample solutions](../assignments/a2_solutions.pdf) have been posted. See Piazza for some notes on these solutions.
 * March 17: I've made some updates to the ["last 3 weeks"](../last3weeks) page, most importantly giving details of an **online test Monday March 23rd @ 12:00** to replace the second midterm originally scheduled for yesterday.
 * March 16: Week 10 lecture recordings have been posted to the 'Lectures & Tutorials' section, alongside the lecture slides.
 * March 15: [I've posted a document](../last3weeks/) outlining the changes to the format of this course for our last 3 weeks. It's long, but please read it over.
