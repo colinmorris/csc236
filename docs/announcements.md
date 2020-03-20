@@ -1,6 +1,7 @@
 # Announcements
 
 ## Week 10:
+* March 20: [I've posted a note to Piazza](https://piazza.com/class/k4xo4w48g2u35e?cid=273) outlining some proposed changes to the grading scheme, including an assessment to replace the final exam. I will be holding a formal vote early next week, but this is your opportunity to advocate for any modifications to my proposed changes before the vote opens.
 * March 20: [Assignment 2 sample solutions](../assignments/a2_solutions.pdf) have been posted. See Piazza for some notes on these solutions.
 * March 17: I've made some updates to the ["last 3 weeks"](../last3weeks) page, most importantly giving details of an **online test Monday March 23rd @ 12:00** to replace the second midterm originally scheduled for yesterday.
 * March 16: Week 10 lecture recordings have been posted to the 'Lectures & Tutorials' section, alongside the lecture slides.
