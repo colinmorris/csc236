@@ -40,7 +40,7 @@ I will hold office hours from Wednesday 2-4 via BB Collaborate. I'll chat with s
 
 ## Midterm 2
 
-The second midterm was originally scheduled to be written in person on Monday March 16. It will **instead be written Monday March 23rd**. A pdf of the midterm will be posted to the course website at exactly 12:00 noon. You will have 50 minutes to write the test. If you have any clarifying questions, I will be available during this time to answer them either asynchronously (via private Piazza posts) or synchronously (via BB Collaborate).
+The second midterm was originally scheduled to be written in person on Monday March 16. It will **instead be written Monday March 23rd**. A pdf of the midterm will be posted to the course website at exactly 12:00 noon. You will have 50 minutes to write the test. If you have any clarifying questions, I will be available during this time to answer them. Please post your questions on Piazza (with *private* visibility) and I will reply promptly. If you prefer, you may also e-mail me.
 
 At 12:50, you should collect your answers into an appropriate digital format and upload them to MarkUs. The test will be open book, but you should not consult any sources other than course materials. See the [Tests and quizzes via MarkUs](#tests-and-quizzes-via-markus) section below for more details on allowed submission formats.
 
