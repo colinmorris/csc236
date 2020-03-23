@@ -38,6 +38,13 @@ The best preparation for the midterm will likely involve reviewing lecture notes
 
 ### Midterm 2 <s>(March 16)</s> (March 23)
 
+Below are links to midterm 2:
+
+* [Compact version](misc/t2_compact.pdf)
+* [Long version](misc/t2_long.pdf) (use this version if you want to write directly on the pdf - it leaves space for writing between questions)
+
+[Solutions are available here.](misc/t2_solutions.pdf)
+
 **Update (March 13)**: Due to the university-wide cancellation of in-person classes, the planned second midterm will not be written as planned on March 16. Details of any make-up assessment to replace it will be announced at a later time.
 
 **Update (March 15)**: An at-home midterm will be written March 23. See [this page](../last3weeks/) for details.
