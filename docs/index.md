@@ -33,6 +33,8 @@ Please verify that you meet the [prerequisites](http://calendar.artsci.utoronto.
 
 ## Grading scheme
 
+<u style="font-size: 130%">**Important:** There is currently a vote underway to change our marking scheme. [See this Piazza poll.](https://piazza.com/class/k4xo4w48g2u35e?cid=313)</u>
+
 <table class="table scheme">
 <thead>
   <tr>

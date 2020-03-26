@@ -1,0 +1,98 @@
+% This is a starter document for writing up your solutions to CSC236 W20's assignment 3
+% See http://www.cs.toronto.edu/~colin/236/W20/assignments/ for more information on assignments, and helpful LaTeX resources.
+\documentclass[boldsans]{article}
+\usepackage{ccfonts,amsmath,amssymb}
+\usepackage{hyperref}
+\usepackage{verbatim}
+\hypersetup{colorlinks=true}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Define a few convenient custom commands and aliases. Normally, these might go into a separate
+% .sty file (e.g. helpers.sty), which we would then import with the command \usepackage{helpers}
+% I'm including them directly in the main tex file in this case, just to make it simpler to share.
+
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\NOT}{\neg}
+\newcommand{\AND}{\wedge}
+\newcommand{\OR}{\vee}
+% Macros for proofs
+\newcommand{\proofheader}[1]{\noindent \underline{#1}}
+\newcommand{\base}{\proofheader{Base Case}:}
+\newcommand{\istep}{\proofheader{Inductive Step}:}
+\newenvironment{solution}
+{\bigskip \noindent \textbf{Solution: \\}}
+{}
+% Inline comments for use in equation environments
+\newcommand{\INLINE}[1]{\qquad \text{\# #1}}
+% Fancy "RE" "REQ" names used in question 1
+\newcommand{\RE}{\mathcal{RE}}
+\newcommand{\REQ}{\mathcal{REQ}}
+% Fancy L symbol to denote the language of a regex or FSA
+\renewcommand{\L}{\mathcal{L}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\title{CSC236 Winter 2020 Assignment \#3}
+% Replace the placeholder text on the below 2 lines with your name and utorid
+\newcommand{\name}{Your full name goes here}
+\newcommand{\utorid}{Your utorid}
+\author{\name \\ \textit{\utorid}}
+
+\begin{document}
+\maketitle
+
+\begin{enumerate}
+
+\item \texttt{grep} and many other software implementations of regular expressions include the question mark , `?', as a special symbol which marks the preceding expression as optional. For example, the regular expression \texttt{dog(gy)?} matches the strings `dog' and `doggy'.
+
+Let $\REQ$ be an extension of our familiar language of regular expressions with the question mark operator added. We will formally define the set $\REQ$ by extending the definition of $\RE$ (definition 7.6 in the \href{http://www.cs.toronto.edu/~vassos/b36-notes/notes.pdf}{Vassos course notes}) to add the following induction step: If $R \in \REQ$, then $(R)? \in \REQ$.
+
+\begin{enumerate}
+    \item Definition 7.7 in the Vassos course notes is a recursive definition of the language denoted by a regular expression $R \in \RE$. Give an extended version of this definition for $\REQ$.
+    
+    \begin{solution}
+    
+    \end{solution}
+    
+    \item Show that $\REQ$ has no more expressive power than $\RE$, by proving the following statement: $\forall R_1 \in \REQ, \exists R_2 \in \RE, \L(R_2) = \L(R_1)$. Your proof should use structural induction.
+    
+    \begin{solution}
+
+    \end{solution}
+\end{enumerate}
+
+\newpage
+\item Given a DFSA $M = (Q, \Sigma, \delta, s, F)$, we will say that $M$ is \textbf{frumious} if the following is true:
+
+$\forall a \in \Sigma, \exists q_1 \in Q, \forall q_2 \in Q, \delta(q_2, a) = q_1$
+
+\begin{enumerate}
+    \item Give a short English description of what it means for a DFSA to be frumious.
+    
+    \begin{solution}
+
+    \end{solution}
+    
+    \item If $M$ is frumious, what can we say about the language accepted by $M$, $\L(M)$?
+    
+    \begin{solution}
+
+    \end{solution}
+    
+    \item How many distinct languages over the alphabet $\{0, 1\}$ can be recognized by frumious DFSAs? Briefly explain your answer.
+    
+    \begin{solution}
+
+    \end{solution}
+\end{enumerate}
+
+\newpage
+\item Suppose $L$ is an infinite regular language. Does it follow that there exists a finite language $S$ such that $L = SS^*$? If yes, prove it. If no, find a counterexample language $L$ and prove that it cannot be formed this way.
+
+\begin{solution}
+
+\end{solution}
+
+\end{enumerate}
+
+\end{document}

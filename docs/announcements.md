@@ -1,6 +1,7 @@
 # Announcements
 
 ## Week 11:
+* March 23: Assignment 3 has been posted
 * March 23: A [poll on proposed changes to the marking scheme](https://piazza.com/class/k4xo4w48g2u35e?cid=313) has been posted on Piazza. These changes will take effect if they're approved by a simple majority of students. The changes include an assessment to replace the final exam, increasing the weight of some term work, and changing the way quiz grades are calculated.
 * March 23: [Solutions for test 2](../misc/t2_solutions.pdf) have been posted
 * March 23: [Here is a link to midterm 2](../misc/t2_compact.pdf). And [here is a link to a roomier version](../misc/t2_long.pdf) with space to write answers, if you prefer to annotate the pdf directly.
