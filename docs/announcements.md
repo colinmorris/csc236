@@ -1,5 +1,8 @@
 # Announcements
 
+## Week 12:
+* March 28: Lecture slides, exercises, and a video recording have been posted (a bit early) for the final week. Note that we *will* also have a final tutorial this week.
+
 ## Week 11:
 * March 26: If you previously contacted me about missing the second midterm on Monday, you should now have received an e-mail from me about the schedule for a make-up test. If you were planning on writing a make-up midterm and you did not receive an e-mail from me, **please contact me** asap.
 * March 23: Assignment 3 has been posted
