@@ -70,6 +70,6 @@ Note that these offerings had a heavier focus on recurrences than correctness, w
 
 ## Exam
 
-We will have a 3 hour exam with no aids allowed. The date and location will be announced at a later date.
+We were originally scheduled to write a final exam worth 41% of the final grade. In place of this, we will have a final take-home assessment worth 20%. In terms of length and content, this will be similar to a normal 3-hour 236 exam, but you will have 3 days to write it. Answers would be submitted to MarkUs (LaTeX not required). 
 
-The final exam is worth 41% of your final grade, and you must earn at least 40% on the exam to pass the course.
+The final will be released at 12:01 AM EST April 7, and due 72 hours later (i.e. one minute after midnight of April 9). As with the quizzes and second midterm, it will be open book, but with no collaboration or consultation of online sources (aside from course materials).

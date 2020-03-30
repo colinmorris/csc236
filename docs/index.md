@@ -33,7 +33,7 @@ Please verify that you meet the [prerequisites](http://calendar.artsci.utoronto.
 
 ## Grading scheme
 
-<u style="font-size: 130%">**Important:** There is currently a vote underway to change our marking scheme. [See this Piazza poll.](https://piazza.com/class/k4xo4w48g2u35e?cid=313)</u>
+**Note**: This marking scheme was modified following a [vote](https://piazza.com/class/k4xo4w48g2u35e?cid=313) held during week 11. For the original marking scheme, see [the original course information sheet](misc/courseinfo.pdf) from the beginning of the year.
 
 <table class="table scheme">
 <thead>
@@ -46,49 +46,50 @@ Please verify that you meet the [prerequisites](http://calendar.artsci.utoronto.
 </thead>
 <tbody>
   <tr>
-    <td>Exam</td>
+    <td>Final</td>
     <td/>
-    <td><i>TBA</i></td>
-    <td>41%</td>
+    <td>April 9</td>
+    <td>20%</td>
   </tr>
 
   <tr>
     <td rowspan="3">Assignments</td>
     <td>Assignment 1</td>
     <td>Thurs January 30</td>
-    <td rowspan="3">21% (3 x 7%)</td>
+    <td>12.5%</td>
   </tr>
   <tr>
     <td>Assignment 2</td>
     <td>Thurs March 12</td>
+    <td>12.5%</td>
   </tr>
   <tr>
     <td>Assignment 3</td>
     <td>Thurs April 2</td>
+    <td>7%</td>
   </tr>
 
   <tr>
     <td rowspan="2">Term tests</td>
     <td>Term test 1</td>
     <td>Mon February 3</td>
-    <td rowspan="2">20% (2 x 10%)</td>
+    <td>15%</td>
   </tr>
   <tr>
     <td>Term test 2</td>
     <td>Mon March <s>16</s> 23</td>
+    <td>10%</td>
   </tr>
 
   <tr>
     <td>Quizzes</td>
     <td/>
     <td><i>Every tutorial</i></td>
-    <td>18% (9 x 2%)</td>
+    <td>23%</td>
   </tr>
 
 </tbody>
 </table>
-
-You must achieve at least 40% of the possible marks on the exam in order to pass the course.
 
 Grades will be posted to [MarkUs]({{ markus_url }}).
 

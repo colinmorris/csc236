@@ -86,9 +86,9 @@ But you should not consult any other online sources during tests and quizzes or 
 
 ## Exam
 
-We were originally scheduled to write a final exam worth 41% of the final grade. My current **tentative** plan is to distribute some of that 41% to existing term work (particularly the first midterm), and allocate some of it to a final 'take-home exam'. In terms of length and content, this would be similar to a normal 3-hour 236 exam, but you would have a few days to write it. Answers would be submitted to MarkUs (LaTeX not required). It would be released some time around our original exam date of April 7. As with the quizzes and second midterm, it would be open book, but with no collaboration or consultation of online sources (aside from course materials).
+We were originally scheduled to write a final exam worth 41% of the final grade. In place of this, we will have a final take-home assessment worth 20%. In terms of length and content, this will be similar to a normal 3-hour 236 exam, but you will have 3 days to write it. Answers would be submitted to MarkUs (LaTeX not required). 
 
-Note that any reweighting will need to be voted on by the class and receive majority approval to pass.
+The final will be released at 12:01 AM EST April 7, and due 72 hours later (i.e. one minute after midnight of April 9). As with the quizzes and second midterm, it will be open book, but with no collaboration or consultation of online sources (aside from course materials).
 
 ## Questions?
 
