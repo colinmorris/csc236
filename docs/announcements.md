@@ -1,6 +1,8 @@
 # Announcements
 
 ## Week 12:
+* April 4: [Assignment 3 sample solutions](../assignments/a3_solutions.pdf) have been posted.
+* April 2: Results from the second midterm are now available on MarkUs. See [this Piazza post](https://piazza.com/class/k4xo4w48g2u35e?cid=419) for some more details on the grading.
 * March 30: The [vote on changes to the marking scheme](https://piazza.com/class/k4xo4w48g2u35e?cid=313) has concluded after being open for 7 days. The changes pass with a count of 59 in favour and 10 opposed. I have updated the information on the course website to reflect these changes. (You can still find a link to the course information sheet with the original marking scheme on the main page.)
 * March 28: Lecture slides, exercises, and a video recording have been posted (a bit early) for the final week. Note that we *will* also have a final tutorial this week.
 
