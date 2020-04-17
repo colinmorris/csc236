@@ -1,0 +1,236 @@
+\documentclass{article}
+
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{changepage}  % For adjustwidth environment
+\usepackage{comment}
+\usepackage{enumitem}
+\usepackage{listings}
+\usepackage{tikz}
+\usepackage{todonotes}
+
+\usetikzlibrary{automata,positioning}
+
+% Syntax highlighting
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstdefinestyle{mystyle}{
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\footnotesize\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\small,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2,
+    escapechar=@
+}
+\lstset{style=mystyle}
+
+% Code style.
+\newcommand{\C}[1]{\textup{\texttt{#1}}}
+
+% Binary and unary all-uppercase text operators. \mathop gives too little space
+% around the binary ones; e.g. \(P \op{AND} Q\) needs lots of space between
+% those capital letters.
+\newcommand\op[1]{{\ \mathrm{#1}\ }}
+\newcommand\uop[1]{{\mathrm{#1}}}
+
+\newcommand\FALSE{{\mathrm{F}}}
+\newcommand\TRUE{{\mathrm{T}}}
+
+\newcommand\AND{\wedge}
+\newcommand\IFF{\iff}
+\newcommand\IMPLIES{\implies}
+\newcommand\NOT{\neg}
+\newcommand\OR{\vee}
+
+\newcommand{\emptylist}{[~]}
+\newcommand\emptyString{\varepsilon}
+\newcommand\Ints{{\mathbb{Z}}}
+\DeclareMathOperator{\len}{len}
+\newcommand\nats{{\mathbb{N}}}
+\newcommand\Nats{\nats}
+\newcommand{\N}{\mathbb{N}}
+\newcommand\powerset{{\mathcal{P}}}
+
+\newtheorem{lemma}{Lemma}
+
+\newenvironment{indentone}{\begin{adjustwidth}{2em}{0em}}{\end{adjustwidth}}
+
+\newcommand{\worthMarks}[1]{[#1 marks] \par}
+
+\newcommand{\eqLang}{\operatorname{EQ}}
+\newcommand{\timesChar}{\mbox{\( \times \)}}
+
+\begin{document}
+
+\begin{enumerate}
+\item \worthMarks{10}
+
+Suppose 
+\( P : \nats \to \{ \TRUE, \FALSE \} \) 
+is a predicate, and we
+know that whenever \( P( n+1 ) \) is true, \( P( n ) \) is also true: in other
+words, suppose
+\[ \forall n \in \nats .\, (P( n+1 ) \allowbreak \IMPLIES P( n )) \] Prove that
+for every natural number \( m \), if \( P( m ) \) is true, then \( P( k ) \) is
+true for all natural numbers \( k < m \). For example, if \( P(2) \) is true,
+then \( P(1) \) and \( P(0) \) must also be true.
+
+Your proof must use induction or the fact that \( \le \) is a well-ordering on
+\( \nats \).
+
+\textit{Note: if you write an argument like the following, you will get 0
+  marks, because it is not written as an induction or well-ordering proof (even
+  though the idea behind it is correct): ``If \( P(m) \) is true,
+  \( P( m-1 ) \) is also true (since \( P( m ) \IMPLIES P( m-1 ) \)), and
+  similarly \( P( m-2 ) \) must be true since \( P( m-1 ) \IMPLIES P( m-2 ) \),
+  and so on. In this way, we can see that
+  \( P( m-1 ), P( m-2 ), \dotsc, P( 0 ) \) are all true.''}
+
+\item \worthMarks{9}
+
+Consider the following Python function:
+
+\begin{lstlisting}[language=Python]
+def f(n):
+  if n < 3:
+    return n
+  else:
+    return f(n-3)
+\end{lstlisting}
+
+\noindent Precondition: \( \C{n} \in \nats \)
+
+\noindent Postcondition: Returns a natural number.
+
+For \( n \in \nats \), let \( T( n ) \) be the total number of times \C{f} gets
+called when \C{f(n)} is run (including the initial call). For example,
+\( T(2) = 1 \) since \C{f(2)} never makes any recursive calls, and
+\( T(6) = 3 \) since \C{f(6)} calls \C{f(3)} which calls \C{f(0)}.
+
+\begin{enumerate}[label=(\alph*)]
+\item \label{q:recurrence} Write a recurrence for \( T(n) \). Briefly
+justify your recurrence in 1--2 sentences.
+
+\item \label{q:closed} Write a closed form for \( T(n) \).
+
+(You don't need to show how you found the closed form.)
+
+\item Use complete induction to prove that your closed form in
+part~\ref{q:closed} is the correct solution to your recurrence from
+part~\ref{q:recurrence}.
+\end{enumerate}
+
+\item \worthMarks{20}
+
+Given a list of 0's and 1's, $A$, we will say that $A$ is \textbf{balanced} if it contains exactly as many zeroes as ones. For example, $\emptylist$ and $[0, 1, 0, 1]$ are balanced, but $[0, 1, 0]$ is not. Consider the Python function \texttt{bal}, defined below, which decides whether a list is balanced.
+
+\begin{lstlisting}[language=Python]
+def bal(A):
+    i = 0
+    j = 1
+    # Make a copy of A
+    B = A.copy()
+    while i < len(B) and j < len(B):
+        if B[i] == B[j]:
+            j += 1
+        else:
+            # swap the elements at indices j and i+1
+            B[j], B[i+1] = B[i+1], B[j]
+            i = i + 2
+            j = i + 1
+    return i == len(B)
+\end{lstlisting}
+
+\noindent Precondition: \C{A} is a list containing only 0's and 1's.
+
+\noindent Postcondition: Returns True iff \C{A} is balanced.
+
+\begin{enumerate}
+    \item
+
+    Use induction to prove that at the end of each iteration of bal's while loop, the sublist $B[:i]$ is balanced. (Recall that $B[:i]$ is a list containing all the elements of $B$ up to but not including index i. If $i \geq \len(B)$, then $B[:i] = B$)
+    
+    You may need to strengthen your induction by proving additional invariants.
+    
+    \item
+
+    Prove that \texttt{bal} is partially correct. State any loop invariants you want to use at the start of your answer. You may assume those invariants without proof.
+
+You should be confident that these invariants are actually true - if your proof relies on an invalid invariant, you may lose significant marks. (You should also avoid contrived invariants that trivially entail partial correctness. For example, `at the end of each iteration $k$, if $i_k \ge \len(B)$ or $j_k \ge \len(B)$, then $A$ is balanced if and only if $i$ is equal to $\len(B)$'. Or, even more to the point, `at the end of each iteration $k$, \texttt{bal} is partially correct'.)
+\end{enumerate}
+
+\item \worthMarks{8}
+
+Let
+\( \Sigma = \{ \C{0}, \C{1}, \C{2}, \C{3}, \C{4}, \C{5}, \C{6}, \C{7}, \C{8},
+\C{9}, \timesChar, \C{=} \} \), so strings in \( \Sigma^* \) can have digits, as well as the symbols \( \timesChar \) and \( \C{=} \). Let \( \eqLang \subseteq \Sigma^* \) be the
+set of true equations of the form \( a \timesChar b \C{=} c \), where \( a \),
+\( b \) and \( c \) are strings of digits representing base-10 numbers and
+\( \timesChar \) is multiplication. For example:
+\begin{itemize}
+\item \( \C{2\timesChar 3=6} \in \eqLang \)
+\item \( \C{2\timesChar 03=00006} \in \eqLang \) (leading zeros are ignored)
+\item \( \C{100\timesChar 37=3700} \in \eqLang \)
+\item \( \C{2\timesChar 3=7} \not\in \eqLang \), since \( 2 \cdot 3 \not= 7 \).
+\item \( \C{1\timesChar =1=1=\timesChar} \not\in \eqLang \), since it doesn't
+have the form \( a \timesChar b \C{=} c \).
+\end{itemize}
+Prove that \( \eqLang \) is not regular.
+
+\item \worthMarks{21}\label{q:r}
+
+Let \( \Sigma = \{ \C{a}, \C{b} \} \) and let \( S \) be the smallest subset of
+\( \Sigma^* \) satisfying:
+\begin{itemize}
+\item Base case: \( \emptyString \in S \).
+\item First constructor case: If \( x \in S \) then \( x \C{aa} \in S \).
+\item Second constructor case: If \( x, y \in S \) then \( x \C{b} y \in S \).
+\end{itemize}
+\begin{enumerate}[label=(\alph*)]
+\item List two strings of length 4 that are in \( S \) and two strings of
+length 4 that are in \( \{ \C{a}, \C{b} \}^* \) but not in \( S \). (You don't
+need to explain your answer.)
+
+\item \label{q:describe} Describe the set \( S \) in English. Don't
+just translate the definition --- you should understand what strings are in
+\( S \). In particular, your answer to this question should make it easy to
+understand why your answers to parts \ref{q:drawDfsa} and
+\ref{q:describeDfsaStates} are correct.
+
+(For example, if the base case were \( \emptyString \in S \) and the
+constructor cases were \( \C{a} x \in S \) and \( x \C{b} \in S \), a good
+description would be: ``strings made of zero or more \C{a}'s followed by zero
+or more \C{b}'s''.)
+
+\item Write a regular expression denoting \( S \). You don't need to explain
+your answer.
+
+\item Prove that your description in part \ref{q:describe} is correct:
+that every string in \( \Sigma^* \) is in \( S \) if and only if it matches
+your description.
+
+\item \label{q:drawDfsa} Draw a DFSA that accepts \( S \).
+
+\item \label{q:describeDfsaStates} For each state \( q \) in your DFSA from
+part~\ref{q:drawDfsa}, describe the set
+\( L_q = \{ x \in \{ \C{a}, \C{b} \}^* \mid \delta^*( s, x ) = q \} \) where
+\( s \) is your starting state.
+
+(In other words, for each state, describe set of inputs that cause your DFSA to
+finish in that state.)
+\end{enumerate}
+\end{enumerate}
+\end{document}
