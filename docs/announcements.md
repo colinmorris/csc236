@@ -1,6 +1,7 @@
 # Announcements
 
 ## Week >12:
+* April 17: Results for the final are now available on MarkUs. Remark requests for the final (or any other piece of term work) **must be submitted within 24 hours**, i.e. no later than 10pm EST on Saturday April 18. See [this Piazza thread](https://piazza.com/class/k4xo4w48g2u35e?cid=536) for more details, and [this thread](https://piazza.com/class/k4xo4w48g2u35e?cid=534) for a caveat about trying to predict your final grade. Solutions to the final have also been posted [here](../final/236_final_solutions.pdf). You'll need to use the username "236" and the password "bookends" to access it.
 * April 13: All results for quiz 9 (the last quiz which was written in person) should now be available on MarkUs. Apologies for the delay - there were some logistical issues with this one.
 * April 13: Results for assignment 3 (and the last tutorial quiz) are available on MarkUs. Please be sure to file any remark requests no later than the 16th, so that I can attend to them before final grades need to be submitted.
 * April 6: If you are writing the final during the regularly scheduled period, you should receive an e-mail tonight at midnight with a link to the handout for the final. Piazza will now be set to default to private questions (please do not override this for questions related to the final).

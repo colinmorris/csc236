@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName Final
+Require valid-user
+AuthUserFile /cs/htuser/colin/auth/final
